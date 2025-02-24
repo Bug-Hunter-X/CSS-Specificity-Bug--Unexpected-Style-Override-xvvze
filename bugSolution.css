@@ -1,0 +1,21 @@
+/* bugSolution.css */
+
+#container {
+  background-color: lightblue;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral; /* This is the intended style*/
+}
+
+/* More specific selector is adjusted to use more generic ones to improve the application of style */
+.box.special {
+  background-color: lightgreen;
+}
+
+/* Another issue where a more specific selector may need to change to a generic one */
+.special {
+  background-color: lightpink;
+}
